@@ -44,3 +44,13 @@ footer {
    border-width: 1px 0px 0px 0px;
    border-color: #F1F1F1; */
 }
+
+.form-error-hidden {
+    display: none;
+}
+
+.form-error {
+    display: auto;
+    color: red;
+    margin-bottom: 2px;
+}
