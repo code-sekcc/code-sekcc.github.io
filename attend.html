@@ -39,16 +39,20 @@
 
   <!-- Primary Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container animated fadeIn">
+  <div class="container animated fadeIn main-content">
     <form action="https://formspree.io/margobra8@gmail.com" method="POST">
     <div class="row">
       <div class="one-half column" style="margin-top: 25%">
         <h4>attend</h4>
-        <label for="EmailInput">Your preferred email</label>
         <input type="text" name="_gotcha" style="display:none" />
+        <label for="NameInput">Your Name</label>
+        <input class="u-full-width" placeholder="Darth Vader" id="NameInput" type="text" name="name">
+        <label for="EmailInput">Your school-issued email</label>
         <input class="u-full-width email" placeholder="example@alumno.sek.es" id="EmailInput" type="email" name="_replyto">
         <p>We promise we won't share your email with any third party or fill your inbox with spam.</p>
+        <p style="color: #E0E0E0;">Please verify that you aren't a robot after submitting.</p>
         <input type="hidden" name="_next" value="//code-sekcc.github.io/success.html" />
+        <input type="hidden" name="_format" value="plain" />
         <input class="button" value="Submit" type="submit">
       </div>
     </div>
