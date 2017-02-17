@@ -51,6 +51,8 @@ footer {
 
 .form-error {
     display: auto;
-    color: red;
-    margin-bottom: 2px;
+    color: #fff;
+    background: #bf0000;
+    border-radius: 4px;
+    padding-left: 4px;
 }
