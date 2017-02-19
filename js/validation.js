@@ -4,8 +4,10 @@ function validateForm() {
     var valid = re.test(email)
     var name = document.forms["attend"]["name"].value;
     var z = email.search("sek.es");
+    var code;
     if (z == -1) {
         document.getElementById("form-error-not-sek").className = "form-error animated fadeIn";
+        document.getElementById("form-error-not-email").className = "form-error-hidden";
         return false;
     }
     else if (valid == false || name == "") {
