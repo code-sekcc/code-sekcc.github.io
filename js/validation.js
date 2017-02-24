@@ -9,10 +9,11 @@ function validateForm() {
         document.getElementById("form-error-not-email").className = "form-error animated fadeIn";
         return false;
     }
-    else if (z == -1) {
+    /* else if (z == -1) {
         document.getElementById("form-error-not-sek").className = "form-error animated fadeIn";
         return false;
     }
+    */
     else {
         document.getElementById("form-error-not-email").className = "form-error-hidden";
         document.getElementById("form-error-not-sek").className = "form-error-hidden";
